@@ -4,11 +4,11 @@ import Contact from '../pages/Contact'
 export default function RightNav() {
   return (
     <div className="rightNav">
-      <div className= "options"><a href="https://draftprotfolio.netlify.app"
+      <div className= "options"><a href="/"
       >home</a></div>
       
-      <div className= "options"><a href="<Contact/>">contact</a></div>
-      <div className= "options">About</div>
+      <div className= "options"><a href="/contact">contact</a></div>
+      <div className= "options"><a href="/about">About</a></div>
     </div>
   )
 }
